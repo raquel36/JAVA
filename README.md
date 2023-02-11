@@ -1,5 +1,5 @@
 # JAVA
-Primer proyecto de java en el que se han realizado las siguientes tareas:  
+### Primer proyecto de java en el que se han realizado las siguientes tareas:  
 * 1.- Prepara un menú que seleccione la ejecución de los diferentes ejercicios que se piden a continuación. Este menú se debe realizar con un switch.  
 * 2.- Crea un método para todos y cada uno de los siguientes ejercicios. El método debe incorporar el calificador de acceso “public static'' y tener un nombre adecuado a lo que se solicita.  
 La llamada al método se debe realizar desde el switch codificado en el ejercicio anterior. Los métodos a codificar deben realizar lo siguiente:  
