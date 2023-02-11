@@ -18,6 +18,11 @@ La llamada al método se debe realizar desde el switch codificado en el ejercici
  ![Imagen programa](https://github.com/raquel36/JAVA/blob/master/EjercicioUno/img/vistaJava.jpg)  
 
  He conseguido hacer una limpieza de pantalla con código en ANSI, además, después de la limpieza, también he conseguido que la vista por pantalla se presente en la parte superior.  
+ ```
+  System.out.print("\033[2J"); /* Borrado de pantalla */
+  System.out.print("\033[0;0H"); /* Mueve el cursor al inicio de la pantalla */
+  System.out.flush(); /* Nos aseguramos de que los cambios se reflejan en la pantalla */
+ ```
  Las secuencias de escape ANSI son secuencias de caracteres especiales que se utilizan para controlar la forma en que se muestra la información en la consola. Estas secuencias son específicas del estándar ANSI (American National Standards Institute) y se utilizan en sistemas operativos basados en Unix y en consolas de Windows.  
 Las secuencias de escape ANSI permiten hacer cosas como mover el cursor a una posición determinada, cambiar el color de texto y fondo, limpiar la pantalla y mucho más.  
  Otra cosa que he incluido es que cuando se inicia el menú, se ejecuta un bucle de 5 segundos de espera, mostrando por pantalla un punto por segundo antes de ejecutar el menú, esta función se activa trás cada opción del menú y permite ver el resultado del programa antes de que se vuelva a mostrás el menú.  
@@ -27,17 +32,17 @@ Las secuencias de escape ANSI permiten hacer cosas como mover el cursor a una po
  ### Algunos problemas surgidos
  #### Problema
  Al realizar el bucle y cuando se ejecutaba alguna de las opciones del menú me salia un error, comó que no se habia introducido ninguna opción y se cerraba el programa automáticamente.  
- ##### Solución
+ #### Solución
  Resulta que en los metodos de cada clase incluia un scan.close, lo que me provocaba este error, al eliminarlo, ya no se producia el error. El problema era que el método Scanner se cerraba y provocaba el cierre del bucle principal.  
  
- ##### Problema
+ #### Problema
  Otro problema que me ha surgido con el Scanner es que en el bucle lo llamaba con la variable scan y en los metodos, también por lo que solo leia el tipo del primer scan, que era de tipo .next, y los de tipo .nextLine no los leia.  
- ##### Solución
+ #### Solución
  He cambiado el nombre de la llamada al método Scanner en los métodos de texto por "input".  
  
- ##### Problema
+ #### Problema
  Al subir el proyecto al repositorio de github, no me cargaba correctamente. Era porque lo habia sacado de la carpeta principal y lo habia dejado solo en la carpeta secundaria (package).  
- ##### Solución
+ #### Solución
  He creado una carpeta nueva y he incluido las carpetas del proyecto en ella.
  
  ### Webgrafia  
