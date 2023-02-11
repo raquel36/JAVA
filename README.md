@@ -20,7 +20,7 @@ La llamada al método se debe realizar desde el switch codificado en el ejercici
  Las secuencias de escape ANSI son secuencias de caracteres especiales que se utilizan para controlar la forma en que se muestra la información en la consola. Estas secuencias son específicas del estándar ANSI (American National Standards Institute) y se utilizan en sistemas operativos basados en Unix y en consolas de Windows.  
 Las secuencias de escape ANSI permiten hacer cosas como mover el cursor a una posición determinada, cambiar el color de texto y fondo, limpiar la pantalla y mucho más.  
  Otra cosa que he incluido es que cuando se inicia el menú, se ejecuta un bucle de 5 segundos de espera, mostrando por pantalla un punto por segundo antes de ejecutar el menú, esta función se activa trás cada opción del menú y permite ver el resultado del programa antes de que se vuelva a mostrás el menú.  
- ![video.mp4](https://user-images.githubusercontent.com/119154158/218282441-f2f4a071-8cb7-4a6c-aa77-cd745d7704d0.mp4)  
+ [video.mp4](https://user-images.githubusercontent.com/119154158/218282441-f2f4a071-8cb7-4a6c-aa77-cd745d7704d0.mp4)  
  El menú está dentro de un bucle que hasta que no se pulsa la letra S/s no se sale del menú.  
  
  ### Algunos problemas surgidos
