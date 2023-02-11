@@ -7,7 +7,7 @@ La llamada al método se debe realizar desde el switch codificado en el ejercici
   * B.- Leer 5 números y mostrarlos en orden inverso al introducido.  
   * C.- Leer 5 números por teclado y a continuación realizar la media de los números positivos, la media de los negativos y contar el número de ceros que se han introducido por teclado.  
   * D.- Reciba como parámetro un texto y devuelva la cantidad de caracteres que incorpora el texto.  
-  * E.- Reciba como par*ámetro un texto y devuelva el texto invertido.  
+  * E.- Reciba como parámetro un texto y devuelva el texto invertido.  
   * F.- Reciba como parámetro un texto y lo devuelva sin espacios en blanco.  
   * G.- Reciba como parámetro dos cadenas y las devuelva concatenadas.  
   * H.- Reciba como parámetro una cadena y una vocal, el método sustituye todas las vocales de la cadena por la vocal que se ha pasado como parámetro (no devuelve nada).  
@@ -16,11 +16,12 @@ La llamada al método se debe realizar desde el switch codificado en el ejercici
  ### Extras  
  El menú incluye simbolos ASCII para dibujar el logo de MENU y el de final, ADIOS, en colores.  
  ![Imagen programa](https://github.com/raquel36/JAVA/blob/master/EjercicioUno/img/vistaJava.jpg)  
+
  He conseguido hacer una limpieza de pantalla con código en ANSI, además, después de la limpieza, también he conseguido que la vista por pantalla se presente en la parte superior.  
  Las secuencias de escape ANSI son secuencias de caracteres especiales que se utilizan para controlar la forma en que se muestra la información en la consola. Estas secuencias son específicas del estándar ANSI (American National Standards Institute) y se utilizan en sistemas operativos basados en Unix y en consolas de Windows.  
 Las secuencias de escape ANSI permiten hacer cosas como mover el cursor a una posición determinada, cambiar el color de texto y fondo, limpiar la pantalla y mucho más.  
  Otra cosa que he incluido es que cuando se inicia el menú, se ejecuta un bucle de 5 segundos de espera, mostrando por pantalla un punto por segundo antes de ejecutar el menú, esta función se activa trás cada opción del menú y permite ver el resultado del programa antes de que se vuelva a mostrás el menú.  
- <video src="https://github.com/raquel36/JAVA/blob/master/EjercicioUno/video/inicio.mp4" controls></video>  
+ <video src=https://user-images.githubusercontent.com/119154158/218283358-d239f77d-7f3a-4a82-b2bf-6fc79e80e204.mp4" controls></video>  
  El menú está dentro de un bucle que hasta que no se pulsa la letra S/s no se sale del menú.   
  
  ### Algunos problemas surgidos
