@@ -48,19 +48,29 @@ Las secuencias de escape ANSI permiten hacer cosas como mover el cursor a una po
  ### Webgrafia  
 Contar carácteres en JAVA  
 https://www.delftstack.com/es/howto/java/count-characters-in-a-string-java/  
+
 Sistemas para leer Strings desde el teclado  
 https://www.abrirllave.com/java/leer-una-variable-de-tipo-string-desde-el-teclado.php  
+
 Como obtener el valor ASCII de una letra de diferentes formas  
 https://parzibyte.me/blog/2020/08/18/java-obtener-valor-ascii-char/#:~:text=Para%20hacer%20esto%2C%20simplemente%20%E2%80%9Ccasteamos,a%20otro%2C%20manteniendo%20el%20valor.&text=En%20este%20caso%20la%20salida%20ser%C3%A1%20El%20valor%20ASCII%20es%3A%2064.  
+
 Convertir string a caracter   
 https://www.techiedelight.com/es/convert-string-char-java/  
-Generador letras ASCII  
+
+Generadores de letras y dibujos ASCII  
 https://www.letrabonita.net/2018/01/primera-entrada.html  
 https://es.rakko.tools/tools/68/  
+
+Crea tu propia imagen ASCII
+https://fsymbols.com/draw/
+
 ANSI CODE  
 https://en.wikipedia.org/wiki/ANSI_escape_code  
+
 Subir videos y otro tipo de archivos al README.md de github  
 https://www.youtube.com/watch?v=G3Cytlicv8Y  
+
 MARKDOWN tutorial. Markdown github  
 https://www.youtube.com/watch?app=desktop&v=dEKEXoJEFE0  
   
